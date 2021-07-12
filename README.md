@@ -14,7 +14,7 @@
  - **Jasmine** is also dependency free and doesn't require a DOM
 
 ## What is Karma in Angular?
-- Karma is a JavaScript test runner that __runs __  the __unit test snippet(piece)__ in Angular.
+- Karma is a JavaScript test runner that **runs**  the __unit test snippet(piece)__ in Angular.
 - Karma also ensures the __result__ of the test is printed out either in the __console or in the file log__.
 - By default, Angular runs on Karma. Other test runners include Mocha and Jasmine.
 - Karma provides tools that make it easier to call Jasmine tests while writing code in Angular
@@ -173,7 +173,7 @@ TOTAL: 6 SUCCESS
 
 - The Angular testing package includes two utilities called `TestBed` and `async`. 
 - `TestBed` is the main Angular utility __package__.
-- ![Angular Unit Testing Example Flow](https://blog.logrocket.com/wp-content/uploads/2018/10/angular-unit-testing-example-flow.jpeg)
+ ![Angular Unit Testing Example Flow](https://blog.logrocket.com/wp-content/uploads/2018/10/angular-unit-testing-example-flow.jpeg)
 - The `describe` container contains different blocks (`it`, `beforeEach`, `xit`, etc.). `beforeEach` runs before any other block. Other blocks do not depend on each other to run.
 	- From the example of my file `user.component.spec.ts` file, the first block is the `beforeEach` inside the container (`describe`). This is the only block that runs before any other block (`it`). The declaration of the app module in `app.module.ts` file is simulated (declared) in the `beforeEach` block. The component (`UserComponent`) declared in the `beforeEach` block is the main component we want to have in this testing environment. The same logic applies to other test declaration.
 - The `compileComponents` object is called to compile your component’s resources like the template, styles etc
