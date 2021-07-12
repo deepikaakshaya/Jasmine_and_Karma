@@ -162,8 +162,7 @@ ng test
 ## My Sample Code output
 * I added some content in the user component
 *  Now, as you can see in the screenshot of specs, this means we passed the test for user
-* ![output](https://user-images.githubusercontent.com/55552785/125243815-34360400-e30c-11eb-9ce0-c295eab1bfa9.JPG)
-
+ ![output](https://user-images.githubusercontent.com/55552785/125243815-34360400-e30c-11eb-9ce0-c295eab1bfa9.JPG)
 * Here you can see all my old components also, just refer only the user component 
 *  Status of my code in terminal below
  ✔ Browser application bundle generation complete.
@@ -184,7 +183,7 @@ TOTAL: 6 SUCCESS
 -  The fixture creates a wrapper around a component instance, The fixture **TestBed.createComponent()** method allows accessing the component and its template.
 -  After creating the component, an instance of the created component (`detectChanges`) to simulate running on the browser environment is called
 
-## Some Jasmine Methods:
+## Some Jasmine Methods
 -	**it()**: Declaration of a particular test
 -   **describe()**: It’s a suite of tests
 -   **expect()**: Expect some value in true form
