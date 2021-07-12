@@ -162,7 +162,8 @@ ng test
 ## My Sample Code output
 * I added some content in the user component
 *  Now, as you can see in the screenshot of specs, this means we passed the test for user
-* ![[Pasted image 20210703125356.png ]]
+* ![output](https://user-images.githubusercontent.com/55552785/125243815-34360400-e30c-11eb-9ce0-c295eab1bfa9.JPG)
+
 * Here you can see all my old components also, just refer only the user component 
 *  Status of my code in terminal below
  ✔ Browser application bundle generation complete.
@@ -187,7 +188,7 @@ TOTAL: 6 SUCCESS
 -	**it()**: Declaration of a particular test
 -   **describe()**: It’s a suite of tests
 -   **expect()**: Expect some value in true form
--
+
 ## Mock HTTP 
 * you can use some HttpTestingModule, etc..  for testing the app components and services
 * It act like backend services as mock application
